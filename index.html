@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grover Graphix — Innovative Graphic &amp; Technology Solutions</title>
+<meta name="description" content="Grover Graphix builds innovative technology and design solutions — web platforms, digital experiences, automation and creative technology.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="grid-canvas"></canvas>
+<div class="glow glow-1"></div>
+<div class="glow glow-2"></div>
+<div class="glow glow-3"></div>
+
+<header>
+  <div class="wrap nav">
+    <a class="wordmark" href="#top">
+      <span class="mark">GX</span>
+      <span>GROVER<em>GRAPHIX</em></span>
+    </a>
+    <nav class="links" id="nav-links">
+      <a href="#capabilities">Capabilities</a>
+      <a href="#solutions">Our Solutions</a>
+      <a href="#lab">In The Lab</a>
+      <a href="#about">Why Us</a>
+      <a class="btn btn-grad" href="#contact">Start a Project</a>
+    </nav>
+    <button id="menu-btn" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="eyebrow reveal">Design-driven technology studio</div>
+      <h1 class="reveal d1">We engineer <span class="grad-text">bold digital experiences</span> that move business forward.</h1>
+      <p class="lead reveal d2">Grover Graphix is the studio behind a growing family of live products — from booking platforms to AI-powered apps for tradies. Every solution is different; the capability behind them is the same: striking design fused with serious engineering.</p>
+      <div class="hero-cta reveal d3">
+        <a class="btn btn-grad" href="#solutions">Explore Our Solutions</a>
+        <a class="btn btn-ghost" href="#contact">Start a Project</a>
+      </div>
+      <div class="hero-stats reveal d3">
+        <div class="stat"><b class="grad-text" data-count="3" data-suffix="">0</b><span>Live products</span></div>
+        <div class="stat"><b class="grad-text" data-count="8" data-suffix="+">0</b><span>Products in the lab</span></div>
+        <div class="stat"><b class="grad-text" data-count="4" data-suffix="">0</b><span>Platforms: iOS · Android · Web · Watch</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAPABILITIES -->
+  <section id="capabilities">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="tag">What We're Capable Of</span>
+        <h2>One studio. Every discipline it takes to ship.</h2>
+        <p>Our solutions all look different because every problem is different — but they're built from the same core capabilities.</p>
+      </div>
+      <div class="cards">
+        <div class="card reveal">
+          <div class="icon">📱</div>
+          <h3>Native Mobile Apps</h3>
+          <p>Real native apps for iPhone and Android — right through to CarPlay and Apple Watch. From first screen to App Store, CI/CD included.</p>
+          <div class="chips"><span class="chip">SwiftUI</span><span class="chip">Kotlin</span><span class="chip">CarPlay</span><span class="chip">Watch</span></div>
+        </div>
+        <div class="card reveal d1">
+          <div class="icon">🤖</div>
+          <h3>AI Agents &amp; Automation</h3>
+          <p>Agents that text back missed calls, book jobs and chase invoices — plus AI-assistant integrations that put your product inside Siri and ChatGPT.</p>
+          <div class="chips"><span class="chip">AI Agents</span><span class="chip">MCP</span><span class="chip">Twilio</span></div>
+        </div>
+        <div class="card reveal d2">
+          <div class="icon">🌐</div>
+          <h3>Web Platforms &amp; SaaS</h3>
+          <p>High-performance web apps and booking platforms — payments, subscriptions and accounting integrations wired in from day one.</p>
+          <div class="chips"><span class="chip">React</span><span class="chip">Supabase</span><span class="chip">Stripe</span><span class="chip">Xero</span></div>
+        </div>
+        <div class="card reveal">
+          <div class="icon">🧊</div>
+          <h3>3D &amp; Creative Technology</h3>
+          <p>Live 3D visualisation and interactive tooling in the browser — the same tech running on this page powers our engineering workbenches.</p>
+          <div class="chips"><span class="chip">Three.js</span><span class="chip">WebGL</span><span class="chip">Interactive</span></div>
+        </div>
+        <div class="card reveal d1">
+          <div class="icon">📊</div>
+          <h3>Dashboards &amp; Intelligence</h3>
+          <p>Live operations dashboards, monitoring and agentic intelligence platforms — decisions made on data, not gut feel.</p>
+          <div class="chips"><span class="chip">Live Ops</span><span class="chip">Monitoring</span><span class="chip">Reporting</span></div>
+        </div>
+        <div class="card reveal d2">
+          <div class="icon">🏗️</div>
+          <h3>Product &amp; Enterprise Architecture</h3>
+          <p>Whiteboard to shipped software: concept decks, business cases and high-availability cloud architecture for when it has to scale.</p>
+          <div class="chips"><span class="chip">UX/UI</span><span class="chip">GCP</span><span class="chip">High Availability</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section id="process">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="tag">How We Work</span>
+        <h2>A process built for momentum.</h2>
+        <p>No black boxes, no bloated timelines. A tight loop from idea to impact.</p>
+      </div>
+      <div class="steps">
+        <div class="step reveal"><h3>Discover</h3><p>We dig into your goals, users and market to find the sharpest opportunity worth building.</p></div>
+        <div class="step reveal d1"><h3>Design</h3><p>Concepts, prototypes and visual direction — tested early so we invest in what works.</p></div>
+        <div class="step reveal d2"><h3>Build</h3><p>Agile engineering sprints with weekly demos. You see real progress, not status reports.</p></div>
+        <div class="step reveal d3"><h3>Launch &amp; Grow</h3><p>Ship, measure, iterate. We stay on to optimise performance and scale what succeeds.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR SOLUTIONS -->
+  <section id="solutions">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="tag">Our Solutions</span>
+        <h2>Live products. Real proof.</h2>
+        <p>This is the home base — each solution below is a product we've built and shipped, running right now. Click through and try them.</p>
+      </div>
+      <div class="work-grid">
+        <a class="work reveal" href="https://prenota.com.au/" target="_blank" rel="noopener"><div class="thumb t1"></div>
+          <div class="meta"><small>SaaS Platform</small><h3>Prenota — bookings that book themselves</h3><p>An all-in-one booking platform for tours, rentals and activities: dynamic pricing, mobile-first checkout, operator dashboard — and AI-assistant bookings via MCP. 0% booking fees for life.</p><span class="visit">prenota.com.au</span></div>
+        </a>
+        <a class="work reveal d1" href="https://empoweredtradie.com.au/" target="_blank" rel="noopener"><div class="thumb t2"></div>
+          <div class="meta"><small>AI &amp; Automation · Mobile App</small><h3>Empowered Tradie — your trade, empowered</h3><p>The mobile EA for tradespeople: an AI agent that texts back missed calls, books jobs, builds quotes on-site and chases invoices — with CarPlay and Apple Watch on board.</p><span class="visit">empoweredtradie.com.au</span></div>
+        </a>
+        <a class="work reveal" href="https://rebuild.prenota.com.au/#examples" target="_blank" rel="noopener"><div class="thumb t3"></div>
+          <div class="meta"><small>Web Platforms</small><h3>Prenota Websites — booking sites, built free</h3><p>Custom-designed, mobile-first websites with 24/7 booking baked in — live demos from restaurants to salons, studios and auto shops.</p><span class="visit">rebuild.prenota.com.au</span></div>
+        </a>
+        <a class="work reveal d1" href="#contact"><div class="thumb t4"></div>
+          <div class="meta"><small>Your Project</small><h3>This space is waiting for you</h3><p>The next solution we ship could carry your name. Tell us what you're building and let's make it unmissable.</p><span class="visit">Start the conversation</span></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- IN THE LAB -->
+  <section id="lab">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="tag">In The Lab</span>
+        <h2>What's coming next.</h2>
+        <p>The bench is never empty. A taste of what we're building right now.</p>
+      </div>
+      <div class="cards">
+        <div class="card reveal">
+          <div class="icon">⚙️</div>
+          <h3>FeedForge</h3>
+          <p>A speeds &amp; feeds workbench for machinists with live 3D visualisation — milling, turning, routing, drilling and tapping, with 66 machine profiles built in.</p>
+          <div class="chips"><span class="chip">iOS + Web</span><span class="chip">Three.js</span><span class="chip">In testing</span></div>
+        </div>
+        <div class="card reveal d1">
+          <div class="icon">🧭</div>
+          <h3>Pivot Point</h3>
+          <p>Honest, personal AI career intelligence — what AI means for <em>your</em> role, and a plan to stay ahead of it or pivot smart.</p>
+          <div class="chips"><span class="chip">AI Platform</span><span class="chip">In design</span></div>
+        </div>
+        <div class="card reveal d2">
+          <div class="icon">🍺</div>
+          <h3>Last Call</h3>
+          <p>Every happy hour and pub special near you, always current — built venue-first so the data stays fresh.</p>
+          <div class="chips"><span class="chip">Consumer App</span><span class="chip">In build</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT / WHY US -->
+  <section id="about">
+    <div class="wrap">
+      <div class="band reveal">
+        <div>
+          <span class="tag" style="color:var(--cyan);font-size:.78rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;display:block;margin-bottom:14px">Why Grover Graphix</span>
+          <h2>Designers who code. Engineers who care how it looks.</h2>
+          <p>Most studios do one or the other. We were born in graphics and grew into technology — so everything we ship is as considered visually as it is technically. One team, one standard, zero hand-off gaps.</p>
+        </div>
+        <ul>
+          <li>Design and engineering under one roof — no lost-in-translation moments.</li>
+          <li>Senior team on every project, not a rotating cast of juniors.</li>
+          <li>Built to scale: performance, security and maintainability from day one.</li>
+          <li>Straight-talking partners — clear scope, clear pricing, clear timelines.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="wrap">
+      <div class="contact-box reveal">
+        <h2>Let’s build something <span class="grad-text">unmissable.</span></h2>
+        <p>Tell us where you want to go. We’ll bring the design, the technology and the momentum to get you there.</p>
+        <a class="btn btn-grad" href="mailto:hello@grovergraphix.com">hello@grovergraphix.com</a>
+        <div class="contact-line">Brisbane, Australia · Working with clients everywhere</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div>© 2026 Grover Graphix. All rights reserved.</div>
+    <nav>
+      <a href="#capabilities">Capabilities</a>
+      <a href="#solutions">Our Solutions</a>
+      <a href="https://prenota.com.au/" target="_blank" rel="noopener">Prenota</a>
+      <a href="https://empoweredtradie.com.au/" target="_blank" rel="noopener">Empowered Tradie</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/Pass.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/EffectComposer.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/RenderPass.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/ShaderPass.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/shaders/CopyShader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/shaders/LuminosityHighPassShader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/UnrealBloomPass.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
